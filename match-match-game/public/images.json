@@ -1,0 +1,28 @@
+[
+  {
+    "category": "animals",
+    "images": [
+      "cat.png",
+      "crocodile.png",
+      "eagle.png",
+      "elephant.png",
+      "fox.png",
+      "gorilla.png",
+      "panda.png",
+      "sloth.png"
+    ]
+  },
+  {
+    "category": "houses",
+    "images": [
+      "barn.png",
+      "cabin.png",
+      "castle.png",
+      "cottage.png",
+      "hostel.png",
+      "house.png",
+      "tree-house.png",
+      "wigwam.png"
+    ]
+  }
+]

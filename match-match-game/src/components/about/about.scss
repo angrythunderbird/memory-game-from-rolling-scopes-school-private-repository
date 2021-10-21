@@ -1,0 +1,65 @@
+.about-game-page {
+  width: 60%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin: 0 auto;
+  background: rgba(0, 0, 0, .05);
+  border-radius: 5px;
+  padding: 1.5rem 2rem;
+}
+
+.instructions-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.instruction-container {
+  width: 100%;
+  min-height: 132px;
+  display: flex;
+  align-self: stretch;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.instruction-content {
+  height: 100%;
+  display: flex;
+  background: #fff;
+  width: 45%;
+  padding: 1rem;
+}
+
+.instruction-text {
+  color: rgba(0, 0, 0, .6);
+  letter-spacing: .25px;
+}
+
+.about-img {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: stretch;
+
+  &__1 {
+    width: 302px;
+    height: 218px;
+    background-image: url(./../../assets/about-1.png);
+  }
+
+  &__2 {
+    width: 116px;
+    height: 73px;
+    background-image: url(./../../assets/about-2.png);
+    align-self: flex-end;
+  }
+
+  &__3 {
+    width: 330px;
+    height: 240px;
+    background-image: url(./../../assets/about-3.png);
+  }
+}

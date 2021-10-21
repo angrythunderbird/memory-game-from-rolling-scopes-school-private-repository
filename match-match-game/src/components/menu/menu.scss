@@ -1,0 +1,67 @@
+.navigation {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  height: 100%
+}
+
+.nav-item {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-basis: 5rem;
+  flex-shrink: 0;
+}
+
+.nav-link {
+  font-size: .6rem;
+  line-height: 1.1rem;
+  text-decoration: none;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: .4px;
+  transition: ease-out .3s;
+
+  &:hover {
+    background: #1e88e5;
+  }
+}
+
+.nav-link__active {
+  background: #1e88e5;
+  cursor: default;
+}
+
+.nav-icon {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  &__about {
+    background-image: url(./../../assets/about-icon.svg);
+  }
+
+  &__score {
+    background-color: #1e88e5;
+    background-image: url(./../../assets/score-icon.svg);
+  }
+
+  &__settings {
+    background-image: url(./../../assets/settings-icon.svg);
+  }
+
+  &__game {
+    background-image: url(./../../assets/game-icon.svg);
+  }
+}
